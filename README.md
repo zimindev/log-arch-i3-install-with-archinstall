@@ -37,7 +37,6 @@ exec --no-startup-id feh --bg-scale ~/wallpaper.jpg
 sudo pacman -S neovim ranger pulseaudio
 ```
 
-```markdown
 # Arch Linux + i3 WM Quick Install Guide
 
 ## 1. Boot & Prep
@@ -86,4 +85,3 @@ sudo pacman -S neovim ranger pulseaudio
 - Win+Enter: Terminal
 - Win+d: App launcher
 - Win+Shift+r: Reload config
-```
