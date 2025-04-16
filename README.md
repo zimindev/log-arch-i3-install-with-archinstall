@@ -1,3 +1,8 @@
+Here's your **Arch Linux + i3 WM Quick Install Guide** in the requested style, optimized for clarity and conciseness:
+
+---
+
+```bash
 # =============================================
 # Arch Linux + i3-gaps Quick Install (archinstall)
 # =============================================
@@ -54,3 +59,32 @@ exec --no-startup-id feh --bg-scale ~/wallpaper.jpg
 
 # 6. Optional Tools
 sudo pacman -S --needed neovim ranger pulseaudio pavucontrol
+```
+
+---
+
+### **Keybinds Cheatsheet**
+| Shortcut          | Action                  |
+|-------------------|-------------------------|
+| `Win+Enter`       | Open terminal (Alacritty) |
+| `Win+d`           | Launch apps (dmenu)     |
+| `Win+Shift+r`     | Reload i3 config        |
+| `Win+Shift+e`     | Exit i3                 |
+| `Win+[1-9]`       | Switch workspaces       |
+
+---
+
+### **Post-Install Tips**
+1. **Wallpaper**:  
+   ```bash
+   feh --bg-scale /path/to/wallpaper.jpg
+   ```
+2. **Theme**: Install `lxappearance` and Arc theme:
+   ```bash
+   sudo pacman -S lxappearance arc-gtk
+   ```
+3. **AUR Helper**:  
+   ```bash
+   sudo pacman -S --needed git base-devel
+   git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
+   ```
