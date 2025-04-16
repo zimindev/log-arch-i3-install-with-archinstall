@@ -1,7 +1,3 @@
-Here's your **Arch Linux + i3 WM Quick Install Guide** in the requested style, optimized for clarity and conciseness:
-
----
-
 ```bash
 # =============================================
 # Arch Linux + i3-gaps Quick Install (archinstall)
