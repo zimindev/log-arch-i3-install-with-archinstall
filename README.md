@@ -1,18 +1,10 @@
-### 🖥️ Arch Linux + i3 via `archinstall` (Terminal-Only Log)
-
 ```bash
 # 1. Check internet
 ping archlinux.org
 
 # 2. Start guided installer
 archinstall
-```
 
----
-
-### 📋 Inside `archinstall` (pick these)
-
-```text
 Language:             en_US
 Keyboard layout:      us
 Drive:                /dev/sda (or your disk)
@@ -31,13 +23,7 @@ Networking:           NetworkManager
 Extra packages:       firefox vim neofetch htop
 Install bootloader:   Yes
 Start installation:   Yes
-```
 
----
-
-### 💻 After install
-
-```bash
 # Reboot system
 reboot
 
