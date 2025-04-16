@@ -35,7 +35,6 @@ exec --no-startup-id feh --bg-scale ~/wallpaper.jpg
 
 # 7. Optional tools
 sudo pacman -S neovim ranger pulseaudio
-```
 
 # Arch Linux + i3 WM Quick Install Guide
 
@@ -43,19 +42,19 @@ sudo pacman -S neovim ranger pulseaudio
 ```bash
 dd if=archlinux.iso of=/dev/sdX bs=4M status=progress
 reboot
-```
+
 
 ## 2. Network (Wi-Fi)
-```bash
+
 iwctl
 station wlan0 connect SSID
 exit
-```
+
 
 ## 3. Run archinstall
-```bash
+
 archinstall
-```
+
 - Disk: UEFI + ext4
 - Hostname: `arch-i3`
 - Locale: `en_US.UTF-8`
@@ -64,24 +63,25 @@ archinstall
 - Network: NetworkManager
 
 ## 4. Post-Install
-```bash
+
 reboot
 startx
 nano ~/.config/i3/config
-```
+
 Add:
-```
+
 exec --no-startup-id nm-applet
 exec --no-startup-id picom --daemon
 exec --no-startup-id feh --bg-scale ~/wallpaper.jpg
-```
+
 
 ## 5. Optional
-```bash
+
 sudo pacman -S neovim ranger pulseaudio
-```
+
 
 ## Keybinds
 - Win+Enter: Terminal
 - Win+d: App launcher
 - Win+Shift+r: Reload config
+```
